@@ -1,14 +1,19 @@
-import userIcon from './Assets/user.svg'
-import FlagIcon from './Assets/flag.svg'
-import HomeIcon from './Assets/home.svg'
-import SunIcon from "./Assets/sun.svg"
-import StarIcon from "./Assets/star.svg"
-import CalendarIcon from "./Assets/todo-calender.svg"
-import IdeaIcon from './Assets/bulb.svg'
-import SortIcon from './Assets/upanddown.svg'
-import TodoIcon from './Assets/calender.svg'
-import GridIcon from './Assets/grid.svg'
-import ListIcon from './Assets/list.svg'
+import userIcon from './assets/user.svg'
+import FlagIcon from './assets/flag.svg'
+import HomeIcon from './assets/home.svg'
+import SunIcon from "./assets/sun.svg"
+import StarIcon from "./assets/star.svg"
+import CalendarIcon from "./assets/todo-calender.svg"
+import IdeaIcon from './assets/bulb.svg'
+import SortIcon from './assets/upanddown.svg'
+import TodoIcon from './assets/calender.svg'
+import GridIcon from './assets/grid.svg'
+import ListIcon from './assets/list.svg'
+import DueDateIcon from './assets/calender.svg'
+import NotificationIcon from './assets/notification.svg'
+import RepeatIcon from './assets/repeat.svg'
+import AddFileIcon from './assets/addfile.svg'
+import CategoryIcon from './assets/tags.svg'
 
 export const navbarContent = [{
   value: "My Day",
@@ -64,6 +69,32 @@ export const displayType = [
   {
     value: 'List',
     image: ListIcon
+  }
+]
+
+export const DisplayForModifyTodo = [
+  {
+    value: 'Added to My Day',
+    image: SunIcon,
+  },
+  {
+    value:'Remind to me',
+    image: NotificationIcon
+  },
+  {
+    value:'Add due date',
+    image: DueDateIcon
+  },
+  {
+    value: "repeat",
+    image: RepeatIcon
+  },
+  {
+    value:"Pick a category",
+    image: CategoryIcon,
+  },{
+    value:"Add a file",
+    image:AddFileIcon
   }
 ]
 
