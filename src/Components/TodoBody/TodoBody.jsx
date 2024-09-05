@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react"
 import { displayOptions, displayType } from "../../constant"
-import Menu from "../../Assets/menu-nav.svg"
-import ThreeDots from "../../Assets/three-dots.svg"
-import IdeaIcon from "../../Assets/bulb.svg"
-import AddIcon from "../../Assets/add.svg"
-import TodoIcon from "../../Assets/calender.svg"
-import RepeatIcon from "../../Assets/repeat.svg"
-import NotificationIcon from "../../Assets/notification.svg"
-import StarIcon from "../../Assets/star.svg"
+import Menu from "../../assets/images/menu-nav.svg"
+import ThreeDots from "../../assets/images/three-dots.svg"
+import IdeaIcon from "../../assets/images/bulb.svg"
+import AddIcon from "../../assets/images/add.svg"
+import TodoIcon from "../../assets/images/calender.svg"
+import RepeatIcon from "../../assets/images/repeat.svg"
+import NotificationIcon from "../../assets/images/notification.svg"
+import StarIcon from "../../assets/images/star.svg"
 import "./TodoBody.scss"
-import ModifyTodo from "../../ModifyTodo/ModifyTodo"
+import ModifyTodo from "../ModifyTodo/ModifyTodo"
 import { useLocation } from "react-router-dom"
 
 
@@ -129,7 +129,7 @@ const TodoBody = ({ handleChange, toggle, handleDo, change }) => {
                   <div className="todo-name" onClick={handleDo}>{value?.input}</div>
                   <button className="add-todo-button"><img src={StarIcon} alt={"star"} className="add-icon" /></button>
                 </div> : <div></div>
-            )
+            )   
           })}
           <div className="add-todo-container completed-container">
             <button className="add-todo-button">

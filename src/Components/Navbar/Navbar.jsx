@@ -1,14 +1,14 @@
 import { navbarContent } from "../../constant.js"
 import { useEffect, useState } from "react"
-import MenuIcon from "../../Assets/menu-nav.svg"
-import CalendarIcon from "../../Assets/todo-calender.svg"
-import MailIcon from '../../Assets/email.svg'
-import AddFileIcon from '../../Assets/addfile.svg'
-import TwoUserIcon from '../../Assets/two-user.svg'
-import TodoIcon from '../../Assets/checkmark.svg'
-import PageIcon from '../../Assets/page.svg'
-import AddIcon from "../../Assets/add.svg"
-import ListIcon from "../../Assets/list.svg"
+import MenuIcon from "../../assets/images/menu-nav.svg"
+import CalendarIcon from "../../assets/images/todo-calender.svg"
+import MailIcon from '../../assets/images/email.svg'
+import AddFileIcon from '../../assets/images/addfile.svg'
+import TwoUserIcon from '../../assets/images/two-user.svg'
+import TodoIcon from '../../assets/images/todo-calender.svg'
+import PageIcon from '../../assets/images/page.svg'
+import AddIcon from "../../assets/images/add.svg"
+import ListIcon from "../../assets/images/list.svg"
 import { useNavigate } from "react-router-dom"
 import './Navbar.scss'
 

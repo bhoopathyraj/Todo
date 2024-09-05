@@ -1,19 +1,19 @@
-import userIcon from './assets/user.svg'
-import FlagIcon from './assets/flag.svg'
-import HomeIcon from './assets/home.svg'
-import SunIcon from "./assets/sun.svg"
-import StarIcon from "./assets/star.svg"
-import CalendarIcon from "./assets/todo-calender.svg"
-import IdeaIcon from './assets/bulb.svg'
-import SortIcon from './assets/upanddown.svg'
-import TodoIcon from './assets/calender.svg'
-import GridIcon from './assets/grid.svg'
-import ListIcon from './assets/list.svg'
-import DueDateIcon from './assets/calender.svg'
-import NotificationIcon from './assets/notification.svg'
-import RepeatIcon from './assets/repeat.svg'
-import AddFileIcon from './assets/addfile.svg'
-import CategoryIcon from './assets/tags.svg'
+import userIcon from './assets/images/user.svg'
+import FlagIcon from './assets/images/flag.svg'
+import HomeIcon from './assets/images/home.svg'
+import SunIcon from "./assets/images/sun.svg"
+import StarIcon from "./assets/images/star.svg"
+import CalendarIcon from "./assets/images/todo-calender.svg"
+import IdeaIcon from './assets/images/bulb.svg'
+import SortIcon from './assets/images/upanddown.svg'
+import TodoIcon from './assets/images/calender.svg'
+import GridIcon from './assets/images/grid.svg'
+import ListIcon from './assets/images/list.svg'
+import DueDateIcon from './assets/images/calender.svg'
+import NotificationIcon from './assets/images/notification.svg'
+import RepeatIcon from './assets/images/repeat.svg'
+import AddFileIcon from './assets/images/addfile.svg'
+import CategoryIcon from './assets/images/tags.svg'
 
 export const navbarContent = [{
   value: "My Day",

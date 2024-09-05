@@ -1,8 +1,8 @@
-import Menu from "../../Assets/menu.svg"
-import Search from "../../Assets/search.svg"
-import Question from "../../Assets/question.svg"
-import Trumpet from "../../Assets/trumpet.svg"
-import Settings from "../../Assets/settings.svg"
+import Menu from "../../assets/images/menu.svg"
+import Search from "../../assets/images/search.svg"
+import Question from "../../assets/images/question.svg"
+import Trumpet from "../../assets/images/trumpet.svg"
+import Settings from "../../assets/images/settings.svg"
 import "./Header.scss"
 
 const Header = () => {
